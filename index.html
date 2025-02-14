@@ -1,177 +1,250 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-
-    <style>
-        .center-text {
-            text-align: center;
-        }
-
-        .menu {
-            display: flex;
-            justify-content: space-between; /* Evenly distribute the words */
-            width: 90%; /* Occupy the full width of the page */
-            margin: 0;
-            padding: 5;
-            list-style: none; /* Remove bullets if using a list */
-        }
-        .menu-item {
-            text-align: center;
-            flex: 1; /* Each word takes equal space */
-        }
-        
-    </style>
-
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 
 </head>
+
 <body>
     <header>
         <br>
-        <h1 class="center-text">
-            <p style="font-size: 50px;">
-            <span style="color: black;">Tienda</span> 
-            <span style="color: blue;">Muebles</span>
-            </p>
-        </h1>
-    
-       <hr> 
-
-    
-   
         <br>
-        <ul class="menu">
-      
-        <a href="index.html" style="color: black; text-decoration: none;">Inicio</a>
+        <h1 class="title-principal">Tienda
+            <span>Muebles</span>
+        </h1>
+        <hr>
+        <br>
 
-        <a href="nosotros.html" style="color: black; text-decoration: none;">Nosotros</a>
-        
-        <a href="tienda.html" style="color: black; text-decoration: none;">Tienda</a>
-       
-        <a href="blog.html" style="color: black; text-decoration: none;">Blog</a>
-    
-        <a href="galeria.html" style="color: black; text-decoration: none;">Galería</a>
-    
-        <a href="contacto.html" style="color: black; text-decoration: none;">Contacto</a>
+        <ul class="menu">
+
+
+            <a href="index.html">Inicio</a>
+
+            <a href="nosotros.html">Nosotros</a>
+
+            <a href="tienda.html">Tienda</a>
+
+            <a href="blog.html">Blog</a>
+
+            <a href="galeria.html">Galería</a>
+
+            <a href="contacto.html">Contacto</a>
 
         </ul>
         <br>
-    
+
 
     </header>
 
-    <img src="img/principal.jpg" alt="principal" >
- 
-
     <main>
 
+        <img class="principal" src="img/principal.jpg" alt="principal">
 
-    <br>
+        <br>
+        <br>
 
-    <h1>Categorías de Productos</h1>
+        <h2>Categorías de Productos</h2>
 
-    <br>
-     
-    <img src="img/categoria1.jpg" alt="categoria1" >
+        <p class="Categorias">
+            <img src="img/categoria1.jpg" alt="categoria1">
 
-    <img src="img/categoria2.jpg" alt="categoria2" >
+            <img src="img/categoria2.jpg" alt="categoria2">
 
-    <img src="img/categoria3.jpg" alt="categoria3" >
+            <img src="img/categoria3.jpg" alt="categoria3">
+        </p>
 
-    <br>
+        <ul class="Categorias2">
 
-    Oficina     Hogar    Cocina 
+            <span>Oficina</span>
+            <span>Hogar</span>
+            <span>Cocina</span>
+        </ul>
 
-    <img src="img/nosotros.jpg" alt="nosotros" >
+        <br>
+        <br>
+        <br>
 
-    <h1>Sobre Nosotros</h1>
+        <div class="AboutUs">
+            <div class="AboutUs2">
 
-    <br>
+                <img class="nosotros2" img src="img/nosotros.jpg" alt="nosotros">
 
-    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut cumque sint quo sunt dolore, minima nostrum velit rem officiis nemo praesentium dicta asperiores quasi tenetur? Similique voluptates saepe fugit quam!</h3>
+            </div>
 
-    <br>
+            <div class="AboutUs3">
 
-    <h1>Nuestros Productos</h1>
+                <div class="Us">Sobre Nosotros</div>
+                <br>
 
-    <br>
+                <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut cumque sint quo sunt dolore, minima
+                    nostrum velit rem officiis nemo praesentium dicta asperiores quasi tenetur? Similique voluptates saepe fugit
+                    quam!</h6>
 
-    <img src="img/producto1.jpg" alt="producto1">
-    <h3>Producto 1 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
+        </div>
 
-    <br>
+        <br>
 
-    <img src="img/producto2.jpg" alt="producto2">
-    <h3>Producto 2 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
+        <h1>Nuestros Productos</h1>
+
+        <br>
+        <div class="Product1">
+
+            <div class="Imagen1 ">
+                <img class="producto1" src="img/producto1.jpg" alt="producto1">
+            </div>
+
+            <div class="Description1">
+                <div class="P1">                
+                    <h2>Producto 1</h2>
+                    <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                    <div class="mil">$1,000,000.00</div>
+                    <button type="submit">AGREGAR AL CARRITO</button>    
+                </div>
+                
+            </div>
+        </div>
+
+        
+       <br>
+        
+        <div class="Product2">
+            <div class="Imagen2">
+                <img class="producto2" src="img/producto2.jpg" alt="producto2">
+            </div>
+
+            <div class="Imagen3">
+                <img class="producto3" src="img/producto3.jpg" alt="producto3">
+            </div>
 
 
-    <img src="img/producto3.jpg" alt="producto3">
-    <h3>Producto 3 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
+            <div class="Description2">
+                <h2>Producto 2 </h2>
+                <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                <div class="mil">$1,000,000.00</div>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
 
-    <br>
+
+            <div class="Description3">
+                <h2>Producto 3 </h2>
+                <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                <div class="mil">$1,000,000.00</div>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
+
+        </div>
+        <br>
+
+        <div class="Product3">
+
+            <div class="Imagen4">
+                <img class="producto4" src="img/producto4.jpg" alt="producto4">
+            </div>
+
+            <div class="Imagen5">
+                <img class="producto5" src="img/producto5.jpg" alt="producto5">
+            </div>
+
+            <div class="Imagen6">
+                <img class="producto6" src="img/producto6.jpg" alt="producto6">
+            </div>
 
 
-    <img src="img/producto4.jpg" alt="producto4">
-    <h3>Producto 1 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
 
-    <img src="img/producto5.jpg" alt="producto5">
-    <h3>Producto 1 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
+            <div class="Description4">
+                <h2>Producto 4 </h2>
+                <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                <div class="mil">$1,000,000.00</div>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
 
-    <img src="img/producto6.jpg" alt="producto6">
-    <h3>Producto 1 </h3>
-    <h4>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</h4>
-    <h2>$1,000,000.00</h2>
-    <button type="submit">AGREGAR AL CARRITO</button>
 
-    <br>
+            <div class="Description5">
+                <h2>Producto 5 </h2>
+                <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                <div class="mil">$1,000,000.00</div>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
 
+            <div class="Description6">
+                <h2>Producto 6 </h2>
+                <div class="texto">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</div>
+                <div class="mil">$1,000,000.00</div>
+                <button type="submit">AGREGAR AL CARRITO</button>
+            </div>
+
+
+        </div>
+
+        <br>
+        <hr>
+
+
+        <div class="Categorias3">
+
+
+            <div class="C1">
+
+                <ul class="MenuDown">
+                <h3>Categorías</h3>
+                
+
+                    <li>Cocina</li>
+                    <li>Oficina</li>
+                    <li>Jardin</li>
+                    <li>Cochera</li>
+                    <li>Dormitorio</li>
+
+                    <ul>
+            </div>
+
+            <div class="C2">
+
+                <ul class="MenuDown">
+                <h3>Sobre Nosotros</h3>
+
+                
+                    <li>Nuestra Historia</li>
+                    <li>Misión, visión y Valores</li>
+                    <li>Carreras</li>
+                    <li>Política de Privacidad</li>
+                    <li>Términos del Servicio</li>
+                </ul>
+            </div>
+
+            <div class="C3">
+
+                <ul class="MenuDown">
+                <h3>Soporte</h3>
+
+                
+
+                    <li>Preguntas Frecuentes</li>
+                    <li>Ayuda en línea</li>
+                    <li>Confianza y Seguridad</li>
+
+                </ul>
+            </div>
+
+        </div>
     </main>
 
-    <footer>
-    
-    <h1>Categórias</h1>
-
-    <h5>Cocina</h5>
-    <h5>Oficina</h5>
-    <h5>Jardín</h5>
-    <h5>Cochera</h5>
-    <h5>Dormitorio</h5>
-
-
-    <h1>Sobre Nosotros</h1>
-    <h5>Nuestra Historia</h5>
-    <h5>Misión, visión y Valores</h5>
-    <h5>Carreras</h5>
-    <h5>Política de Privacidad</h5>
-    <h5>Términos del Servicio</h5>
-
-    <h1>Soporte</h1>
-    <h5>Preguntas Frecuentes</h5>
-    <h5>Ayuda en línea</h5>
-    <h5>Confianza y Seguridad</h5>
-    
-    <br>
-    
-    <h5>Todos los derechos Reservados, TiendaMuebles</h5>
-    </footer>
 
 
 </body>
+
+<footer>
+
+
+    <br>
+
+    Todos los derechos Reservados, TiendaMuebles
+</footer>
+
+
 </html>

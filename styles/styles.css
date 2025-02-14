@@ -1,0 +1,320 @@
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 span {
+    color: #037bc0;
+
+}
+
+span:hover {
+
+    background-color: #037bc0;
+    /* Color del botón cuando el ratón pasa por encima */
+
+}
+
+li {
+    list-style: none;
+    /* Remove bullets if using a list */
+}
+
+a {
+
+    text-decoration: none;
+    /* Removes underline */
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* Evenly distribute the words */
+    width: 65%;
+    /* Occupy the full width of the page */
+    margin: 0 200px 0 300px;
+    /* up right down left */
+
+
+}
+
+
+.principal {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Categorias {
+
+    text-align: center;
+}
+
+.Categorias2 {
+
+    display: flex;
+    justify-content: space-between;
+    /* Evenly distribute the words */
+    width: 45%;
+    /* Occupy the full width of the page */
+    margin: 0 100px 0 500px;
+    /* up right down left */
+    list-style: none;
+    /* Remove bullets if using a list */
+
+}
+
+.AboutUs {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 40em;
+    justify-content: center;
+
+}
+
+.nosotros2 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.AboutUs3 {
+
+    background-color: #037bc0;
+    color: white;
+    text-align: left;
+    
+}
+
+.Us {
+    font-size: 48px;
+    margin: 4em 5em 0em 2em;
+    
+}
+
+h6 {
+    font-size: 22px;
+    
+    margin: 0em 12em 1em 4em;
+    
+}
+
+button {
+    background-color: rgb(18, 212, 54);
+    color: white;
+    border: rgb(18, 212, 54);
+    height: 3em;
+    display: block;
+    width: 90%;
+    justify-self: center;
+    margin-top: 4em;
+
+}
+
+button:hover {
+    background-color: rgb(2, 120, 24);
+
+}
+
+.Product1 {
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 28em;
+    justify-content: center;
+    margin-left: 22em;
+    margin-right: 22em;
+    
+    
+    
+}
+.producto1 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.mil {
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Description1 {
+
+    background-color: #037bc0;
+    height: 28em;
+    
+    
+    
+}
+
+.P1 {
+
+    color: white;
+    margin-left: 1em;
+    margin-right: 2em; 
+    text-align: center;
+
+}
+
+.Product2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows:  18em 18em ;
+    width: 63%;
+    column-gap: 20px;
+    margin-left: 22em;
+    margin-right: 22em;
+    align-content:space-between;
+    
+}
+
+.producto2 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.producto3 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.Description2 {
+
+    background-color: #037bc0;
+    height: 18em;
+    color: white; 
+    
+    
+}
+
+.texto { 
+
+    margin: 0em 2em 0em 2em ;
+
+    
+    
+}
+.Description3 {
+
+    background-color: #037bc0;
+    height: 18em;
+    color: white; 
+    
+}
+
+
+
+.Product3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 18em 18em ;
+    column-gap: 20px;
+
+    margin-left: 22em;
+    margin-right: 22em;
+    
+}
+
+.producto4 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.producto5 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.producto6 {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures the image fills the dimensions while maintaining aspect ratio */
+
+}
+
+.Description4 {
+
+    background-color: #037bc0;
+    height: 18em;
+    color: white; 
+    
+    
+}
+
+.Description5 {
+
+    background-color: #037bc0;
+    height: 18em;
+    color: white; 
+    
+}
+
+
+.Description6 {
+
+    background-color: #037bc0;
+    height: 18em;
+    color: white; 
+   
+}
+
+.Categorias3 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:left;
+    justify-content: center;
+    margin-left: 22em;
+    margin-right: 22em;
+   
+}
+
+.MenuDown {
+
+    size: 20px;
+}
+
+h3 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+footer {
+    text-align: center;
+}
