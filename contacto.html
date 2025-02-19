@@ -44,6 +44,67 @@
     </header>
 
     <br>
+    <h1>Contacto</h1>
+    <br>
+
+    <div class="form-container">
+        <h2>Tus Datos</h2>
+    <form>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+        <label for="TuAsunto">Tu Asunto: </label>
+        <input type="text" id="TuAsunto" name="TuAsunto" placeholder="Tu Asunto" required>
+        <label for="email">Email: </label>
+        <input type="text" id="TuEmail" name="TuEmail" placeholder="Tu Email" required>
+        <label for="TuTelefono">Tu Telefono: </label>
+        <input type="text" id="TuTelefono" name="TuTelefono" placeholder=" Tu Telefono" required>
+        <label for="Mensaje">Mensaje: </label>
+        <textarea id="Mensaje" name="Mensaje" rows="4" required></textarea>
+    </form>
+    </div>
+    <br>
+    <div class="form-container2">
+        <h2>Pais        </h2>
+    <form>
+        <label for="Pais">Pais</label>
+        <select id="Pais">
+            <option value="--Seleccione--">--Seleccione--</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+            <option value="Espana">Espana</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru">Peru</option>
+
+        </select>
+    </form>
+    </div>
+
+    <br>
+    <div class="form-container3">
+        <h2>Informacion Extra</h2>
+    <form>
+        <label class="checkbox-container">
+            Cliente
+            <input type="checkbox" unchecked>
+            <span class="checkmark"></span>
+        </label> 
+        <label class="checkbox-container">
+            Proveedor
+            <input type="checkbox" unchecked>
+            <span class="checkmark"></span>
+        </label> 
+        <label for="Categoria de Interes">Categoria de Interes </label>
+        <textarea id="CategoriaDeInteres" name="CategoriaDeInteres" rows="4" required></textarea>
+    </form>
+
+
+    <button type="submit">Enviar Formulario</button>
+    </div>
+
+
+
+    <br>
     <hr>
 
 
@@ -95,4 +156,13 @@
 
     </div>
 </body>
+
+<footer>
+
+
+    <br>
+
+    Todos los derechos Reservados, TiendaMuebles
+</footer>
+
 </html>
